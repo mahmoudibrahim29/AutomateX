@@ -60,24 +60,8 @@ Tech Stack
 
 ---
 ##  Structure
-AutomateX/
-│
-├── app.py
-├── requirements.txt
-├── .env
-│
-├── utils/
-│   ├── ioc_detect.py
-│   ├── scoring.py
-│   ├── defang.py
-│   ├── normalize.py
-│   └── cache.py
-│
-├── providers/
-│   └── virustotal.py
-│
-└── assets/
-    └── favicon.png
+<img width="525" height="369" alt="image" src="https://github.com/user-attachments/assets/f5e86822-258a-4e09-a286-eda06cb8a552" />
+
 
 ##  Getting Started
 
