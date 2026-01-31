@@ -1,0 +1,77 @@
+[
+  {
+    "ioc": "8.8.8.8",
+    "ioc_defanged": "8[.]8[.]8[.]8",
+    "type": "ip",
+    "virustotal": {
+      "stats": {
+        "malicious": 0,
+        "suspicious": 0,
+        "undetected": 33,
+        "harmless": 60,
+        "timeout": 0
+      }
+    },
+    "verdict": {
+      "score": 0,
+      "verdict": "clean"
+    }
+  },
+  {
+    "ioc": "example.com",
+    "ioc_defanged": "example[.]com",
+    "type": "domain",
+    "virustotal": {
+      "stats": {
+        "malicious": 1,
+        "suspicious": 0,
+        "undetected": 28,
+        "harmless": 64,
+        "timeout": 0
+      }
+    },
+    "verdict": {
+      "score": 20,
+      "verdict": "clean"
+    }
+  },
+  {
+    "ioc": "https://example.com",
+    "ioc_defanged": "hxxps://example[.]com",
+    "type": "url",
+    "virustotal": {
+      "stats": {
+        "malicious": 1,
+        "suspicious": 0,
+        "undetected": 25,
+        "harmless": 68,
+        "timeout": 0
+      }
+    },
+    "verdict": {
+      "score": 20,
+      "verdict": "clean"
+    }
+  },
+  {
+    "ioc": "44d88612fea8a8f36de82e1278abb02f",
+    "ioc_defanged": "44d88612fea8a8f36de82e1278abb02f",
+    "type": "md5",
+    "virustotal": {
+      "stats": {
+        "malicious": 64,
+        "suspicious": 0,
+        "undetected": 2,
+        "harmless": 0,
+        "timeout": 3,
+        "confirmed-timeout": 0,
+        "failure": 0,
+        "type-unsupported": 7
+      }
+    },
+    "verdict": {
+      "score": 100,
+      "verdict": "malicious"
+    }
+  }
+]

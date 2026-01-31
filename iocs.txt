@@ -1,0 +1,91 @@
+# ==========================
+# Safe demo IOC list (training)
+# One IOC per line
+# ==========================
+
+# Public DNS / common IPs
+8.8.8.8
+8.8.4.4
+1.1.1.1
+1.0.0.1
+9.9.9.9
+208.67.222.222
+208.67.220.220
+
+# RFC 5737 TEST-NET IPv4 (documentation ranges)
+192.0.2.1
+192.0.2.55
+198.51.100.10
+198.51.100.250
+203.0.113.7
+203.0.113.200
+
+# RFC 3849 documentation IPv6
+2001:db8::1
+2001:db8::2
+2001:db8:abcd::1
+
+# Common benign domains
+example.com
+example.org
+example.net
+iana.org
+cloudflare.com
+google.com
+microsoft.com
+github.com
+gitlab.com
+tryhackme.com
+virustotal.com
+pastebin.com
+tinyurl.com
+bit.ly
+
+# URLs (safe examples)
+https://example.com/
+https://example.com/login
+https://example.org/test
+https://iana.org/domains/example
+https://github.com/
+https://virustotal.com/gui/home/search
+
+# EICAR test file hashes (safe anti-malware test string)
+# MD5 / SHA1 / SHA256 for EICAR (commonly used in labs)
+44d88612fea8a8f36de82e1278abb02f
+3395856ce81f2b7382dee72602f798b642f14140
+275a021bbfb6489e54d471899f7db9d8a0b2a3b5c6d6b6a6a3f5d7c5c6c5e1e3
+
+# Random-looking demo hashes (not tied to real malware; for UI/testing only)
+d41d8cd98f00b204e9800998ecf8427e
+da39a3ee5e6b4b0d3255bfef95601890afd80709
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+# More domains for volume testing
+docs.python.org
+pypi.org
+stackoverflow.com
+reddit.com
+wikipedia.org
+openai.com
+mitre.org
+attack.mitre.org
+owasp.org
+nvd.nist.gov
+cisco.com
+fortinet.com
+paloaltonetworks.com
+splunk.com
+ibm.com
+crowdstrike.com
+sentinelone.com
+rapid7.com
+alienvault.com
+
+# More URLs for volume testing
+https://attack.mitre.org/
+https://owasp.org/www-project-top-ten/
+https://nvd.nist.gov/
+https://docs.python.org/3/
+https://pypi.org/project/streamlit/
+https://splunk.com/
+https://ibm.com/security
