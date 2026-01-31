@@ -2,7 +2,12 @@
 AutomateX is a SOC-focused **Threat Intelligence &amp; IOC Reputation Checker** built with Python and Streamlit.  
 
 pip install -r requirements.txt
- 
+
+to run the project in your local machine use the following command
+streamlit run app.py
+
+and do not forget to add the API key in .env file
+
 #  AutomateX – Threat Intelligence Platform
 
 AutomateX is a SOC-focused **Threat Intelligence & IOC Reputation Checker** built with Python and Streamlit.  
@@ -54,6 +59,25 @@ Tech Stack
 
 
 ---
+##  Structure
+AutomateX/
+│
+├── app.py
+├── requirements.txt
+├── .env
+│
+├── utils/
+│   ├── ioc_detect.py
+│   ├── scoring.py
+│   ├── defang.py
+│   ├── normalize.py
+│   └── cache.py
+│
+├── providers/
+│   └── virustotal.py
+│
+└── assets/
+    └── favicon.png
 
 ##  Getting Started
 
