@@ -47,8 +47,11 @@ Tech Stack
 
 ##  Screenshots
 
-> Add screenshots here  
-> (Dashboard, Results Table, IOC Details, MITRE Mapping)
+<img width="1439" height="655" alt="c" src="https://github.com/user-attachments/assets/ba03eefc-7307-411b-9de5-1e13def0c0bb" />
+<img width="1918" height="869" alt="b" src="https://github.com/user-attachments/assets/e20e38e7-e901-4dd2-866c-ed5274f12d70" />
+<img width="1918" height="890" alt="a" src="https://github.com/user-attachments/assets/9603230e-4685-40d4-9a1c-828d58899d7f" />
+<img width="1717" height="815" alt="d" src="https://github.com/user-attachments/assets/714d9ac9-2ea1-4cd8-9b8b-6d26e1c12be7" />
+
 
 ---
 
